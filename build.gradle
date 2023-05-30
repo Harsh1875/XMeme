@@ -33,6 +33,11 @@ dependencies {
 
     implementation 'mysql:mysql-connector-java:8.0.29'
 
+    implementation 'org.modelmapper:modelmapper:2.4.4'
+    implementation 'javax.inject:javax.inject:1'
+    //implementation 'javax.validation:com.springsource.javax.validation:1.0.0.GA'
+    implementation 'org.springframework.boot:spring-boot-starter-validation:2.6.6'
+
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
     testImplementation 'org.springframework.boot:spring-boot-starter-test:2.7.1'
     testImplementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo:2.7.1'
